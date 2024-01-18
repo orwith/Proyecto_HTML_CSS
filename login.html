@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./favicon/favicon.png" />
+    <!--    enlazando el css    -->
+    <link rel="stylesheet" href="./css/login.css" />
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <img class="climb_logo" src="./img/climb_logo.png" alt="">
+        <img class="climb_gif" src="./img/tnf.gif">
+
+    </header>
+
+    <fieldset class="credenciales_de_usuario">
+        <label for="user_mail">Email:</label> <br>
+        <input class="credenciales" id="user_mail" type="email"> <br>
+
+        <label for="user_password">Contraseña:</label> <br>
+        <input class="credenciales" id="user_password" type="password" minlength="5"> <br>
+
+        <form action="./inicio.html"><input class="login" type="submit" value="Inicio de sesión"><br></form>
+
+        <form action="./recuperar_contraseña.html">
+            <input class="login_olvidar_contraseña" type="submit" value="Contraseña olvidada?">
+        </form>
+        <section class="pie_de_log">Al iniciar sesión en Climb Around, el usuario acepta nuestra política de privacidad</section>
+    </fieldset>
+
+    <footer class="pie_de_pagina"></footer>
+</body>
+
+</html>

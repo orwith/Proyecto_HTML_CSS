@@ -1,0 +1,141 @@
+header {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 0px;
+    background-color:  rgb(255, 153, 0);
+    border-bottom: 2px solid black;
+    padding-top: 20px;
+    padding-left: 30px;
+    left: 0;
+}
+
+.climb_logo {
+    width: 190px;
+    height: 60px;
+    filter: hue-rotate(140deg);
+}
+
+.climb_gif {
+    width: 70px;
+    height: 60px;
+    float: right;
+    margin-right: 50px;
+}
+
+.boton_atras {
+    width: 40px;
+    float: right;
+    margin-top: 13px;
+    margin-right: 50px;
+}
+
+body {
+    background-color: rgb(255, 179, 71);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+.pie_de_pagina {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    color: aliceblue;
+    background-color: rgb(255, 153, 0);
+}
+
+.pie_de_pagina>p {
+    text-align: center;
+    margin-top: 40px;
+    left: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section {
+    width: 70%;
+    height: 300px;
+}
+
+section>.resumen {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 250px;
+    height: 290px;
+    margin-top: 150px;
+    margin-left: 5%;
+    font-size: large;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+section>.resumen:hover {
+    animation-name: transition_1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transition_1 {
+    from {}
+
+    100% {
+        background-color: rgb(255, 200, 128);
+    }
+}
+
+.climb_margalef {
+    position: fixed;
+    width: 40%;
+    max-height: 300px;
+    max-width: 400px;
+    margin-left: 350px;
+    top: 33%;
+    transform: translateY(-50%);
+    padding: 0;
+}
+
+.climb_persona {
+    position: absolute;
+    left: 70%;
+    top: 16%
+}
+
+.dividir {
+    border: 1px solid rgb(255, 223, 176);
+    width: 100%;
+}
+
+table {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 5%;
+    margin-top: 45px
+}
+
+.encabezado_tabla {
+    border: 1px solid rgb(255, 223, 176);
+    background-color: rgb(255, 200, 128);
+    color: black;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+td:hover {
+    animation-name: transition_1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+ol {
+    margin-right: 10%;
+}
+
+ol>li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: square;
+}

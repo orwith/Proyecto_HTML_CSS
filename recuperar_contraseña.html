@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./favicon/favicon.png" />
+    <!--    enlazando el css    -->
+    <link rel="stylesheet" href="./css/recuperar_contraseña.css" />
+    <title>Contraseña</title>
+</head>
+
+<body>
+    <header>
+        <img class="climb_logo" src="./img/climb_logo.png" alt="">
+        <a href="../login.html">
+            <img class="boton_atras" src="../img/back.png" alt="">
+        </a>
+        <img class="climb_gif" src="./img/climb1.gif">
+    </header>
+
+    <fieldset class="credenciales_de_usuario">
+        <p class="etiqueta_recuperacion">Recuperar contraseña</p>
+        <label for="user_mail">Especifique el correo electrónico:</label> <br>
+        <input class="credenciales" id="user_mail" type="email"> <br>
+        <label for="user_number">Especifique el número de teléfono:</label> <br>
+        <input class="credenciales" id="user_number" type="email"> <br>
+        <form action="./recordar_email_enviado.html">
+            <input class="enviar_email" type="submit" value="enviar correo electrónico"><br>
+        </form>
+    </fieldset>
+
+    <footer class="pie_de_pagina"></footer>
+</body>
+
+</html>

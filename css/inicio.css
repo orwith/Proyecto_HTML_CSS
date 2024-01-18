@@ -1,0 +1,150 @@
+header {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 0px;
+    background-color: rgb(49, 40, 97);
+    border-bottom: 2px solid black;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.climb_logo {
+    width: 190px;
+    height: 60px;
+}
+
+.climb_gif {
+    width: 70px;
+    height: 60px;
+    float: right;
+    margin-right: 50px;
+}
+
+body {
+    background-color: rgb(33, 33, 83);
+    background-image: url('../img/background_climb_around75.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+
+.pie_de_pagina {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(42, 43, 100);
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: transition_1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.pie_de_pagina>p {
+    color: wheat;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+
+ul {
+    display: inline-flex;
+    position: fixed;
+    vertical-align: middle;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+
+}
+
+li {
+    background-color: rgb(49, 40, 97);
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+li>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+li>p {
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2vw;
+    opacity: 0%;
+    width: 28%;
+    height: 40%;
+    box-sizing: border-box;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    top: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box:hover img {
+    animation-name: transition_2;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transition_2 {
+    from {}
+
+    100% {
+        transform: scaleX(105%) scaleY(105%);
+        border-radius: 10px;
+        filter: brightness(50%);
+        text-align: center;
+        font-size: 2vw;
+    }
+}
+
+.box:hover p {
+    animation-name: transition_1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transition_1 {
+    from {
+        opacity: 0%;
+    }
+
+    100% {
+        font-size: 2vw;
+        opacity: 100%;
+    }
+}
+
+.contacto {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    text-align: center;
+    bottom: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: transition_1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+a {
+    color: rgb(49, 40, 97);
+    text-shadow: 4px 4px 1px white;
+    font-weight: bold;
+}

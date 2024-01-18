@@ -1,0 +1,149 @@
+header {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 0px;
+    background-color: rgb(139, 69, 19);
+    border-bottom: 2px solid black;
+    padding-top: 20px;
+    padding-left: 30px;
+    left: 0;
+}
+
+.climb_logo {
+    width: 190px;
+    height: 60px;
+}
+
+.boton_atras {
+    width: 40px;
+    float: right;
+    margin-top: 13px;
+    margin-right: 50px;
+}
+
+.climb_gif {
+    width: 70px;
+    height: 60px;
+    float: right;
+    margin-right: 50px;
+}
+
+body {
+    background-color: rgb(160, 82, 45);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    background-size: 100%;
+}
+
+.pie_de_pagina {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    color: aliceblue;
+    background-color: rgb(139, 69, 19);
+}
+
+.pie_de_pagina>p {
+    position: absolute;
+    text-align: center;
+    margin-top: 40px;
+    left: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateX(-50%);
+}
+
+.section_top {
+    width: 90%;
+    height: auto;
+    margin-left: 25%;
+    margin-right: auto;
+}
+
+section>.resumen {
+    margin-top: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 250px;
+    height: auto;
+    font-size: large;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+section>.resumen:hover {
+    animation-name: transition_1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transition_1 {
+    from {}
+
+    100% {
+        background-color: rgb(205, 133, 63);
+    }
+}
+
+.section_top>.resumen,
+.section_top>.climb_rodellar {
+    display: inline-block;
+}
+
+.climb_rodellar {
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-left: 3%;
+    max-width: 500px;
+}
+
+.dividir {
+    border: 1px solid rgb(222, 184, 135);
+    width: 100%;
+}
+
+.section_bottom {
+    height: 400px;
+    margin-left: 35%;
+    margin-right: auto;
+}
+
+.section_bottom>table,
+.section_bottom>ol {
+    display: inline-block;
+}
+
+table {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 45px
+}
+
+.encabezado_tabla {
+    border: 1px solid rgb(222, 184, 135);
+    background-color: rgb(205, 133, 63);
+    color: black;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+td:hover {
+    animation-name: transition_1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+ol {
+    margin-right: 10%;
+}
+
+ol>li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: square;
+}

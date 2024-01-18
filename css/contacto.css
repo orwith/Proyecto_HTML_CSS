@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(33, 33, 83);
+    background-image: url('../img/background_climb_around75.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(49, 40, 97);
+    border-bottom: 2px solid black;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.climb_logo {
+    width: 190px;
+    height: 60px;
+}
+
+.climb_gif {
+    width: 70px;
+    height: 60px;
+    float: right;
+    margin-right: 50px;
+}
+
+.boton_atras {
+    width: 40px;
+    float: right;
+    margin-top: 13px;
+    margin-right: 50px;
+}
+
+.pie_de_pagina {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(42, 43, 100);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secciones {
+    width: 90%;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secciones>.seccion_izq,
+.secciones>.seccion_dch {
+    display: inline-block;
+}
+
+.seccion_izq {
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(67, 67, 155);
+    color: white;
+    border-radius: 10px;
+}
+
+.seccion_dch {
+    margin-left: 10%;
+    width: 40%;
+}
+
+.map_titulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.map,
+.formulario_contacto{
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    background-color: rgb(67, 67, 155);
+    color: white;
+    border-radius: 10px;
+}
+
+label {
+    margin-top: 10px;
+}

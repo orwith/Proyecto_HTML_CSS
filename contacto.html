@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./favicon/favicon.png" />
+    <!--    enlazando el css    -->
+    <link rel="stylesheet" href="./css/contacto.css" />
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <img class="climb_logo" src="./img/climb_logo.png" alt="">
+        <a href="../inicio.html">
+            <img class="boton_atras" src="../img/back.png" alt="">
+        </a>
+        <img class="climb_gif" src="./img/tnf_fly.gif">
+    </header>
+    <article class="secciones">
+        <section class="seccion_izq">
+            <h3 class="map_titulo">Encuentre nuestra oficina</h3>
+            <iframe class="map" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=0.18814086914062503%2C41.03948436294275%2C1.3348388671875002%2C41.47617465855341&amp;layer=mapnik"
+                style="border: 1px solid black"></iframe>
+        </section>
+        <section class="seccion_dch">
+            <fieldset class="formulario_contacto">
+                <p class="etiqueta_recuperacion">Envíenos un correo electrónico</p>
+                <label for="user_mail">Título:</label> <br>
+                <input class="credenciales" id="user_mail" type="email"> <br>
+                <label for="user_number">Mensaje.</label> <br>
+                <input class="credenciales" id="user_number" type="email"> <br>
+                <form action="./recordar_email_enviado.html">
+                    <input class="enviar_email" type="submit" value="enviar correo electrónico"><br>
+                </form>
+            </fieldset>
+        </section>
+    </article>
+
+    <footer class="pie_de_pagina"></footer>
+</body>
+
+</html>
